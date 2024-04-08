@@ -1,15 +1,27 @@
-<template>
-  <div>
-
-  </div>
-</template>
-
 <script>
   export default {
     
   }
 </script>
 
-<style lang="scss" scoped>
+<template>
+  <div class=" bg-black ">
+    <p>ciao</p>
 
+  </div>
+</template>
+
+
+
+<style lang="scss">
+
+@use './assets/scss/main.scss';
+@use './assets/scss/partials/variables.scss' as *;
+
+p{
+color: $river_bed;
+
+
+
+}
 </style>
