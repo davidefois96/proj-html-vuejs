@@ -98,6 +98,28 @@ import { database } from '../assets/data/database';
 
 
     </section>
+    <section class="fourthSection d-flex  justify-content-center  align-items-center ">
+
+
+      <div>
+
+        <Service :key="database.services[2].name"
+         :service="database.services[2]"
+      
+        />
+
+        <img class="mt-5" src="/img/play-icon.png" alt="play-icon">
+
+
+
+      </div>
+
+      
+
+
+
+
+    </section>
 
   </main>
 </template>
@@ -125,7 +147,7 @@ main{
 
     padding-top: 90px;
     padding-bottom: 90px;
-    background-color: $gallery;
+    background-color: #f7f7f7;
     text-align: center;
 
 
@@ -140,6 +162,32 @@ main{
     
 
 
+
+  }
+  .fourthSection{
+
+    background-image: url(/img/paralax-bg-tour-facilities.jpg);
+   
+    
+    background-size: cover;
+    background-position: center;
+    
+    height: 600px;
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+    text-align: center;
+
+    color: white;
+
+    img{
+
+      width:10%;
+
+
+    }
+    
 
   }
   

@@ -32,9 +32,11 @@
 
 <style lang="scss" scoped>
 
+@use '../../assets/scss/partials/variables.scss' as *;
+
 
 .line{
-  border: 1px solid black;
+  border: 1.2px solid $gallery;
   width: 200px;
   margin: auto;
 
