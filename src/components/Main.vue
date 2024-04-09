@@ -131,6 +131,61 @@ import { database } from '../assets/data/database';
       
       />
 
+    </section>
+    <section class="sixthSection text-white d-flex flex-column  align-items-center justify-content-center ">
+
+      <Service :key="database.services[3].name"
+         :service="database.services[3]"
+      
+      />
+
+      <div class="formbox mt-5 ">
+
+        <div class="d-flex justify-content-between ">
+
+          <input type="text" placeholder="Name*">
+          <input type="email" placeholder="Email*">
+        
+        </div>
+
+        <div class="d-flex justify-content-between ">
+
+          <input type="text" placeholder="Phone Number">
+
+          <div class="date">
+
+            <i class="fa-solid fa-calendar-days"></i>
+            <input type="text" placeholder="Appointment Date">
+
+
+          </div>
+          
+
+
+        </div>
+
+        
+
+        <div class="d-flex flex-column ">
+
+          <textarea class="w-100 bg-transparent" placeholder="How can we help?*"></textarea>
+
+          <button>MAKE AN APPOINTMENT</button>
+
+
+
+
+        </div>
+
+        
+
+        
+        
+        
+
+
+
+      </div>
 
 
 
@@ -201,6 +256,78 @@ main{
       width:10%;
 
 
+    }
+    
+
+  }
+  .sixthSection{
+
+    
+
+    height: 860px;
+    background-image: url(/img/make-an-appointment.jpg);
+    background-position: center;
+    text-align: center;
+
+    .formbox{
+
+      width: 570px;
+
+      input{
+        width: 48%;
+        margin-bottom: 35px;
+        height: 45px;
+        background: transparent;
+        border: 1px solid white;
+        font-size: .75rem;
+        color: white;
+        padding-left: 8px;
+        &:focus{
+          outline: none;
+        }
+        
+      }
+      textarea{
+
+        border: solid 1px white;
+        height: 130px;
+        margin-bottom: 35px;
+        font-size: .75rem;
+        color: white;
+        padding-top: 8px;
+        padding-left: 8px;
+        &:focus{
+          outline: none;
+        }
+
+      }
+      button{
+
+        height: 45px;
+        border: none;
+        border-radius: 2px;
+        background-color: $pelorous;
+        color: white;
+        font-size: .9rem;
+
+
+      }
+      .date{
+        width: 48%;
+        border: solid 1px white;
+        height: 45px;
+        padding-left: 8px;
+        input{
+          width: 94.7%;
+          border: none;
+
+
+        }
+        i{
+          font-size: .75rem;
+        }
+
+      }
     }
     
 

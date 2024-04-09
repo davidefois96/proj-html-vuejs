@@ -51,8 +51,12 @@ const database={
       img:"icon-7.png",
       name:"TOUR OUR FACILITIES"
 
-      }
+      },
+      {
+        name: "Make An Appointment"
       
+      }
+     
 
     ],
 
