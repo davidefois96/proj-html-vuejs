@@ -25,7 +25,7 @@ import { database } from '../assets/data/database';
   <main>
     <section class="firstSection">
 
-      <div class="text-center">
+      <div>
 
         <h2 class="mb-4">
           Welcome to Avada Health
@@ -40,10 +40,11 @@ import { database } from '../assets/data/database';
 
       </div>
 
-      <div class="customContainer row row-cols-4 text-center" >
+      <div class="customContainer row row-cols-4" >
         <Skill v-for="(skill, index) in database.skills" :key="index"
         :img="skill.img"
         :name="skill.name"
+        :text="skill.text"
          />
     
 
@@ -71,10 +72,30 @@ import { database } from '../assets/data/database';
         
         />
         
+      </div>
 
+    </section>
 
+    <section class="thirdSection">
+
+      <Service :key="database.services[1].name"
+      :service="database.services[1]"
+      
+      />
+
+      <div class="customContainer row row-cols-3 text-center" >
+        <Skill v-for="(intervention, index) in database.interventions" :key="index"
+        :img="intervention.img"
+        :name="intervention.name"
+        :text="intervention.text"
+         />
+    
 
       </div>
+
+
+
+
 
     </section>
 
@@ -95,6 +116,7 @@ main{
 
     padding-top: 90px;
     padding-bottom: 90px;
+    text-align: center;
 
 
 
@@ -105,6 +127,17 @@ main{
     padding-bottom: 90px;
     background-color: $gallery;
     text-align: center;
+
+
+
+  }
+  .thirdSection{
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+    
+    text-align: center;
+    
 
 
 

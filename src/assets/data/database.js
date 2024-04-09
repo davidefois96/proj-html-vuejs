@@ -8,19 +8,23 @@ const database={
       
       {
         img: "icon-1.png",
-        name: "SAME DAY APPOINTMENTS"
+        name: "SAME DAY APPOINTMENTS",
+        text:"Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim"
       },
       {
         img: "icon-2.png",
-        name: "WORLD CLASS FACILITIES"
+        name: "WORLD CLASS FACILITIES",
+        text:"Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim"
       },
       {
         img: "icon-3.png",
-        name: "EXPERT DOCTORS"
+        name: "EXPERT DOCTORS",
+        text:"Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim"
       },
       {
         img: "icon-4.png",
-        name: "COMPLEMENTARY THERAPIES"
+        name: "COMPLEMENTARY THERAPIES",
+        text:"Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim"
        
       }
 
@@ -32,7 +36,8 @@ const database={
       {
 
       img:"icon-5.png",
-      name:"MEET OUR DOCTORS"
+      name:"MEET OUR DOCTORS",
+     
 
       },
       {
@@ -74,36 +79,42 @@ const database={
       }
 
     ],
-    intervention: [
+    interventions: [
 
       {
-        icon:"icon-14.png",
-        name:"REHABILITATION CENTER"
-
-      },
-      {
-        icon:"icon-15.png",
-        name:"DENTAL IMPLANTS"
+        img:"icon-14.png",
+        name:"REHABILITATION CENTER",
+        text:"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et equas"
 
       },
       {
-        icon:"icon-16.png",
-        name:"MEDICINE RESEARCH"
+        img:"icon-15.png",
+        name:"DENTAL IMPLANTS",
+        text:"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et equas"
 
       },
       {
-        icon:"icon-11.png",
-        name:"BLOOD BANK"
+        img:"icon-16.png",
+        name:"MEDICINE RESEARCH",
+        text:"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et equas"
 
       },
       {
-        icon:"icon-12.png",
-        name:"PHARMACEUTICAL ADVICE"
+        img:"icon-11.png",
+        name:"BLOOD BANK",
+        text:"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et equas"
 
       },
       {
-        icon:"icon-13.png",
-        name:"MEDICAL COUNSELING"
+        img:"icon-12.png",
+        name:"PHARMACEUTICAL ADVICE",
+        text:"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et equas"
+
+      },
+      {
+        img:"icon-13.png",
+        name:"MEDICAL COUNSELING",
+        text:"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et equas"
 
       }
       ],

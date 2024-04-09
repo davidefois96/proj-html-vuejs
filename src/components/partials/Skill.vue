@@ -6,7 +6,8 @@ import { database } from '../../assets/data/database';
     
     props:{
       img:String,
-      name:String
+      name:String,
+      text:String
 
     },
     data() {
@@ -21,25 +22,16 @@ import { database } from '../../assets/data/database';
 <template>
   
 
-  <div class="minicard">
+  <div class="skillcard">
     <img :src="`/img/${img}`" alt="logo"> 
     <h6>{{name}}</h6>
     
-   
-    
-    
-    
-    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptam accusantim</p>
+    <p>{{ text }}</p>
 
 
   </div>
   
-  
-    
-  
-  
-  
-
+ 
 
 </template>
 
@@ -48,11 +40,12 @@ import { database } from '../../assets/data/database';
 <style lang="scss" scoped>
 
 
-.minicard{
+.skillcard{
   margin-top: 40px;
+  margin-bottom: 10px;
 
   p{
-   font-size: 0.78rem;
+   font-size: 0.76rem;
   
   }
   h6{
@@ -61,6 +54,7 @@ import { database } from '../../assets/data/database';
     margin-bottom: 15px;
 
   }
+  img{width: 30%;}
 
   
 }  
@@ -71,6 +65,6 @@ import { database } from '../../assets/data/database';
 
 
 
-}
+
 
 
