@@ -1,14 +1,28 @@
 <script>
+  import Main from './components/Main.vue';
+  import Header from './components/Header.vue';
+  import Footer from './components/Footer.vue';
+
+
   export default {
+
+    components:{
+
+      Header,
+      Main,
+      Footer,
+
+    },
     
   }
 </script>
 
 <template>
-  <div class=" bg-black ">
-    <p>ciao</p>
+  <Header />
+  <Main />
 
-  </div>
+  <Footer />
+  
 </template>
 
 
@@ -16,12 +30,7 @@
 <style lang="scss">
 
 @use './assets/scss/main.scss';
-@use './assets/scss/partials/variables.scss' as *;
-
-p{
-color: $river_bed;
 
 
 
-}
 </style>

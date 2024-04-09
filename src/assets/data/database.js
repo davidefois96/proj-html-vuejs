@@ -1,30 +1,32 @@
-export default {
 
 
-  database:[
-    
-    characteristics = [
+
+
+const database={
+
+    characteristics : [
       
       {
-        icon: "icon-1.png",
+        img: "icon-1.png",
         name: "SAME DAY APPOINTMENTS"
       },
       {
-        icon: "icon-2.png",
+        img: "icon-2.png",
         name: "WORLD CLASS FACILITIES"
       },
       {
-        icon: "icon-3.png",
+        img: "icon-3.png",
         name: "EXPERT DOCTORS"
       },
       {
-        icon: "icon-4.png",
+        img: "icon-4.png",
         name: "COMPLEMENTARY THERAPIES"
+       
       }
 
 
     ],
-    doctors = [
+    doctors : [
 
       
       {
@@ -47,7 +49,7 @@ export default {
       }
 
     ],
-    services=[
+    services : [
 
       {
         icon:"icon-14.png",
@@ -78,16 +80,17 @@ export default {
         icon:"icon-13.png",
         name:"MEDICAL COUNSELING"
 
-      },
+      }
+      ],
 
-      specialties=[
+      specialties : [
 
         "Emergency Care",
         "Expert Diagnostics",
         "Superb Rehabilitation"
       ],
 
-      iconsBelow=[
+      iconsBelow : [
 
         "client-logos-1-200x188.png",
         "client-logos-2-200x188.png",
@@ -95,7 +98,7 @@ export default {
         "client-logos-4-200x188.png",
       ],
 
-      firstList=[
+      firstList : [
 
         "121 King Street, London United Kingdom",
         "1.800.458.556"
@@ -103,7 +106,7 @@ export default {
 
       ],
 
-      secondList=[
+      secondList : [
         
         "Cardiology",
         "Pediactrics",
@@ -114,7 +117,7 @@ export default {
       ],
 
 
-    ]
+    
 
 
 
@@ -124,10 +127,10 @@ export default {
 
 
 
-  ]
+    
+}  
 
 
 
 
-
-}
+export {database}

@@ -5,9 +5,10 @@
 </script>
 
 <template>
-  <div>
+  <footer>
+    f
 
-  </div>
+  </footer>
 </template>
 
 
