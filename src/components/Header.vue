@@ -15,7 +15,7 @@ import { database } from '../assets/data/database';
   <header >
     <div class="topHeader d-flex justify-content-between pt-4">
 
-      <img src="../assets/img/medical_logo_1x_light.png" alt="">
+      <img src="/img/medical_logo_1x_light.png" alt="">
 
       <ul class="d-flex align-items-center ">
         <li>HOME</li>
@@ -60,7 +60,7 @@ import { database } from '../assets/data/database';
 
 
 header{
-  background-image: url(../assets/img/header-image-homepage.jpg);
+  background-image: url(/img/header-image-homepage.jpg);
   background-size: cover;
   height: 730px;
 

@@ -4,7 +4,7 @@
 
 const database={
 
-    characteristics : [
+    skills : [
       
       {
         img: "icon-1.png",
@@ -26,30 +26,55 @@ const database={
 
 
     ],
+    services:[
+
+      
+      {
+
+      img:"icon-5.png",
+      name:"MEET OUR DOCTORS"
+
+      },
+      {
+
+      img:"icon-6.png",
+      name:"OUR HEALT SERVICES"
+
+      },
+      {
+
+      img:"icon-7.png",
+      name:"TOUR OUR FACILITIES"
+
+      }
+      
+
+    ],
+
     doctors : [
 
       
       {
-        icon: "doctor-1-200x206.jpg",
-        name: "Jon Snow",
+        img: "doctor-1.jpg",
+        name: "JON SNOW",
         type: "Anesthesiologist"
 
       },
       {
-        icon: "doctor-2-200x206.jpg",
-        name: "Tony Stark",
+        img: "doctor-2.jpg",
+        name: "TONY STARK",
         type: "Cardiologist"
 
       },
       {
-        icon: "doctor-3-200x206.jpg",
-        name: "Anna Smith",
+        img: "doctor-3.jpg",
+        name: "ANNA SMITH",
         type: "Nurse Practitioner"
 
       }
 
     ],
-    services : [
+    intervention: [
 
       {
         icon:"icon-14.png",
@@ -115,16 +140,6 @@ const database={
         "Ultrasound Echocardiogram"
 
       ],
-
-
-    
-
-
-
-
-
-
-
 
 
     

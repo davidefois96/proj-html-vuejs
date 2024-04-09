@@ -22,8 +22,10 @@ import { database } from '../../assets/data/database';
   
 
   <div class="minicard">
-    <img src="../../assets/img/icon-1.png" alt="logo"> 
+    <img :src="`/img/${img}`" alt="logo"> 
     <h6>{{name}}</h6>
+    
+   
     
     
     
