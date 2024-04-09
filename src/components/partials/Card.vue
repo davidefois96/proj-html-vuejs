@@ -66,7 +66,7 @@ p{
 }
 .p1{
 
-  font-size: 0.78rem;
+  font-size: 0.76rem;
 }
 
 .btn1{

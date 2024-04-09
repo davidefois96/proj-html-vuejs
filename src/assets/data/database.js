@@ -121,9 +121,23 @@ const database={
 
       specialties : [
 
-        "Emergency Care",
-        "Expert Diagnostics",
-        "Superb Rehabilitation"
+        {
+          name:"Emergency Care",
+          color:"#3aafbf"
+
+        },
+        {
+          name:"Expert Diagnostics",
+          color:"#3597c3"
+
+        },
+        {
+          name:"Superb Rehabilitation",
+          color:"#327ec7"
+
+        },
+
+        
       ],
 
       iconsBelow : [

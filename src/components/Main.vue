@@ -1,7 +1,8 @@
 <script>
 import Skill from './partials/Skill.vue';
 import Service from './partials/Service.vue';
-import Card from './partials/Card.vue'
+import Card from './partials/Card.vue';
+import Specialty from './partials/Specialty.vue';
 
 import { database } from '../assets/data/database';
 
@@ -10,7 +11,8 @@ import { database } from '../assets/data/database';
     components:{
       Skill,
       Service,
-      Card
+      Card,
+      Specialty
 
     },
     data() {
@@ -115,6 +117,19 @@ import { database } from '../assets/data/database';
       </div>
 
       
+
+
+
+
+    </section>
+
+    <section class="fifthSection row row-cols-3">
+
+      <Specialty v-for="(specialty,index) in database.specialties" :key="index"
+      :name="specialty.name"
+      :color="specialty.color"
+      
+      />
 
 
 
