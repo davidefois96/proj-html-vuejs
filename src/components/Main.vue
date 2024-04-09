@@ -123,7 +123,7 @@ import { database } from '../assets/data/database';
 
     </section>
 
-    <section class="fifthSection row row-cols-3">
+    <section class="fifthSection d-flex ">
 
       <Specialty v-for="(specialty,index) in database.specialties" :key="index"
       :name="specialty.name"
@@ -186,6 +186,24 @@ import { database } from '../assets/data/database';
 
 
       </div>
+
+
+
+    </section>
+    <section class="seventhSection d-flex  align-items-center  ">
+
+
+      <div class="customContainer d-flex justify-content-between">
+
+        <img :src="`/img/${icon}`" alt="" v-for="(icon,index) in database.iconsBelow" :key="index">
+
+
+      </div>
+
+
+
+      
+
 
 
 
@@ -260,6 +278,7 @@ main{
     
 
   }
+  
   .sixthSection{
 
     
@@ -330,6 +349,19 @@ main{
       }
     }
     
+
+  }
+  .seventhSection{
+    background-image: url(/img/rgb-gradient-bar-for-logo-carrasel.jpg);
+    background-size: cover;
+    height: 270px;
+    img{
+      width: 20%;
+      
+    }
+
+
+
 
   }
   
