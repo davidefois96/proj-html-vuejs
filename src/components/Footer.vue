@@ -20,17 +20,18 @@
 
 
 <style lang="scss" scoped>
-@use '../assets/scss/partials/variables.scss' as *;
+
 
 footer{
   height:60px;
   background-color: #f7f7f7;
   font-size: 0.76rem;
+  color: #666666;
   .customContainerBig{
     height: 100%;
   }
   .box{
-    height:25px;
+    height:27px;
     width: 35px;
     background-color: #474747;
     border-top-left-radius: 3px;
@@ -40,7 +41,7 @@ footer{
     right: 0;
     color: white;
     text-align: center;
-    line-height: 25px;
+    line-height: 27px;
     
   }
 

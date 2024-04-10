@@ -221,7 +221,7 @@ import { database } from '../assets/data/database';
       </div>
       <div class="col">
 
-        <h6> CONTACT INFORMATION </h6>
+        <h6 class="titlelist"> CONTACT INFORMATION </h6>
 
         <div class="lineSmall my-4 "></div>
 
@@ -246,7 +246,7 @@ import { database } from '../assets/data/database';
 
         
 
-        <h6> MEDICAL DEPARTMENTS </h6>
+        <h6 class="titlelist"> MEDICAL DEPARTMENTS </h6>
 
         <div class="lineSmall my-4 "></div>
 
@@ -283,7 +283,7 @@ import { database } from '../assets/data/database';
 
 <style lang="scss" scoped>
 
-@use '../assets/scss/partials/variables.scss' as *;
+
 
 
 main{
@@ -294,6 +294,8 @@ main{
     padding-top: 90px;
     padding-bottom: 90px;
     text-align: center;
+
+    h2,p{color: #333c4e;}
 
 
 
@@ -314,6 +316,7 @@ main{
     padding-bottom: 90px;
     
     text-align: center;
+    
     
     
 
@@ -398,7 +401,7 @@ main{
         height: 45px;
         border: none;
         border-radius: 2px;
-        background-color: $pelorous;
+        background-color: #39afbb;
         color: white;
         font-size: .9rem;
 
@@ -417,6 +420,7 @@ main{
         }
         i{
           font-size: .75rem;
+          color: #d1d1d1;
         }
 
       }
@@ -441,24 +445,33 @@ main{
     padding-top: 80px;
 
     .col1{
-      p{line-height: 30px;}
+      p{
+        line-height: 30px;
+        color: #666666;
+      }
 
 
     }
 
     .line{
-      border-top: solid black 1px;
+      border-top: solid #e0dede 1px;
     }
 
     .lineSmall{
-      border: solid 1px $pelorous;
+      border: solid 1px #39afbb;
       width: 40px;
 
     }
 
 
 
-    h6{font-size: .9rem;}
+    h6{
+      font-size: .9rem;
+      color: #333c4e;
+      
+    }
+
+    .titlelist{font-size: 1.05rem;}
 
     a{
       display: inline-block;
@@ -468,6 +481,7 @@ main{
       text-align: center;
       line-height: 25px;
       border-radius: 3px;
+      
     }
 
     button{
@@ -479,7 +493,8 @@ main{
         padding-right: 60px;
         padding-top: 11px;
         padding-bottom: 11px;
-        border: solid black 1px;
+        border: solid #333333 1px;
+        color: #333333;
         
 
 

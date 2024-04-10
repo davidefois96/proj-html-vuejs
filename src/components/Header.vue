@@ -18,10 +18,9 @@ import { database } from '../assets/data/database';
       <img src="/img/medical_logo_1x_light.png" alt="">
 
       <ul class="d-flex align-items-center ">
-        <li>HOME</li>
-        <li>ABOUT</li>
-        <li>DEPARTMENTS</li>
-        <li>ARTICLES</li>
+
+        <li v-for="(item,index) in database.headerlist" :key="index"><a href="" :style="`color: ${item.color} ;`">{{ item.name }}</a></li>
+        
         <li>
           
           <button>MAKE APPOINTMENT</button>
@@ -56,7 +55,6 @@ import { database } from '../assets/data/database';
 
 <style lang="scss" scoped>
 
-@use '../assets/scss/partials/variables.scss' as *;
 
 
 header{
@@ -70,12 +68,13 @@ header{
     
     img{
       width: 15%;
+      
     }
 
   }
   
   ul{
-    color: white;
+    
     list-style: none;
     text-decoration: none;
     font-size: 0.8rem;
@@ -84,19 +83,16 @@ header{
     
     li{
       margin-left: 50px;
-      vertical-align: middle;
-      
-      &:first-child{color: $pelorous;};
-      
+
       button{
         font-size: 0.8rem;
         color: white;
-        background-color: $pelorous;
+        background-color: #39afbb;
         border-radius: 0%;
         padding-left: 30px;
         padding-right: 30px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
         border: none;
 
 
@@ -111,19 +107,19 @@ header{
   .customContainer{
     height: 660.8px;
     padding-top: 220px;
-    color: $white;
+    color: white;
 
     
     h1{
       font-size: 4rem;
       
-      span{color: $pelorous}
+      span{color: #39afbb}
 
     }
     button{
         font-size: 0.9rem;
         color: white;
-        background-color: $pelorous;
+        background-color: #39afbb;
         border-radius: 0%;
         padding-left: 58px;
         padding-right: 58px;

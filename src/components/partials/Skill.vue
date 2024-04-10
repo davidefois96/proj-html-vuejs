@@ -46,12 +46,14 @@ import { database } from '../../assets/data/database';
 
   p{
    font-size: 0.85rem;
+   color: #747474;
   
   }
   h6{
     font-size: 0.95rem;
     margin-top: 15px;
     margin-bottom: 15px;
+    color: #333c4e;
 
   }
   img{width: 30%;}

@@ -19,7 +19,7 @@
   <li class="d-flex mb-2 ">
 
     <div class="circle me-2 " :style="`background-color: ${bg}; color: ${color};`"><i :class="`${icon}`" :style="`font-size: ${iconsize};`"></i></div>
-    <p>{{text}}</p>
+    <a href=""><p>{{text}}</p></a>
 
 
   </li>
@@ -29,7 +29,9 @@
 
 <style lang="scss" scoped>
 
-@use '../../assets/scss/partials/variables.scss' as *;
+a{color:#2b2b2b}
+
+
 
 
 .circle{

@@ -46,7 +46,7 @@ import { database } from '../../assets/data/database';
 
 <style lang="scss" scoped>
 
-@use '../../assets/scss/partials/variables.scss' as *;
+
 
 img{
 
@@ -55,29 +55,17 @@ img{
 
 p{
   font-size: 0.9rem;
+  color: #333c4e;
 
 
 }
 .p1{
 
   font-size: 0.76rem;
+  color:#747474;
 }
 
-.btn1{
-  background-color: $facebook;
 
-
-}
-.btn2{
-  background-color: $twitter;
-
-
-}
-.btn3{
-  background-color: $instagram;
-
-
-}
 a{
   display: inline-block;
   height: 25px;

@@ -3,6 +3,37 @@
 
 
 const database={
+    headerlist:[
+
+      {
+        name:"HOME",
+        color:"#39afbb"
+
+
+      },
+      {
+        name:"ABOUT",
+        color:"white"
+
+
+      },
+      {
+        name:"DEPARTMENTS",
+        color:"white"
+
+
+      },
+      {
+        name:"ARTICLES",
+        color:"white"
+
+
+      },
+      
+      
+
+    ],
+
 
     skills : [
       
@@ -37,23 +68,28 @@ const database={
 
       img:"icon-5.png",
       name:"MEET OUR DOCTORS",
+      color:"#333c4e"
      
 
       },
       {
 
       img:"icon-6.png",
-      name:"OUR HEALT SERVICES"
+      name:"OUR HEALT SERVICES",
+      color:"#333c4e"
+
 
       },
       {
 
       img:"icon-7.png",
-      name:"TOUR OUR FACILITIES"
+      name:"TOUR OUR FACILITIES",
+      color:"#d1d1d1"
 
       },
       {
-        name: "Make An Appointment"
+        name: "Make An Appointment",
+        color:"#d1d1d1"
       
       }
      
