@@ -16,7 +16,7 @@
 </script>
 
 <template>
-  <li class="d-flex mb-2 ">
+  <li class="d-flex mb-1 ">
 
     <div class="circle me-2 " :style="`background-color: ${bg}; color: ${color};`"><i :class="`${icon}`" :style="`font-size: ${iconsize};`"></i></div>
     <a href=""><p>{{text}}</p></a>

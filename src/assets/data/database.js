@@ -253,7 +253,7 @@ const database={
         {
           color: "white",
           bg: "#39afbb",
-          text:"Ultrasound Echocardiogram",
+          text:"Pre-natel Care",
           icon:"fa-solid fa-chevron-right",
           iconsize:"0.45rem"
 
@@ -262,7 +262,7 @@ const database={
         {
           color: "white",
           bg: "#39afbb",
-          text:"Cardiology",
+          text:"Ultrasound Echocardiogram",
           icon:"fa-solid fa-chevron-right",
           iconsize:"0.45rem"
 
