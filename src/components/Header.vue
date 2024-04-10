@@ -13,7 +13,7 @@ import { database } from '../assets/data/database';
 
 <template>
   <header >
-    <div class="topHeader d-flex justify-content-between pt-4">
+    <div class="customContainerBig topHeader d-flex justify-content-between pt-4">
 
       <img src="/img/medical_logo_1x_light.png" alt="">
 
@@ -36,7 +36,7 @@ import { database } from '../assets/data/database';
 
       <div>
         <h1>Caring <span>For Life</span></h1>
-        <p class="my-4">Kind words can be short and easy to speak, but their echoes are truly <br>
+        <p class="my-4 lh-lg ">Kind words can be short and easy to speak, but their echoes are truly <br>
         endless. Avada Healt focuses on you as if it was our own family.
         </p>
         <button>LEARN MORE</button>
@@ -61,19 +61,15 @@ import { database } from '../assets/data/database';
 
 header{
   background-image: url(/img/header-image-homepage.jpg);
-  background-size: cover;
-  height: 730px;
+  
+  background-position: top;
+  height: 850px;
 
   
   .topHeader{
-    padding-left: 100px;
-    padding-right: 100px;
-
     
     img{
-      width: 16%;
-      height: 16%;
-
+      width: 15%;
     }
 
   }
@@ -97,8 +93,8 @@ header{
         color: white;
         background-color: $pelorous;
         border-radius: 0%;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
         padding-top: 5px;
         padding-bottom: 5px;
         border: none;
@@ -114,7 +110,7 @@ header{
   
   .customContainer{
     height: 660.8px;
-    padding-top: 160px;
+    padding-top: 220px;
     color: $white;
 
     
@@ -125,12 +121,12 @@ header{
 
     }
     button{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
         color: white;
         background-color: $pelorous;
         border-radius: 0%;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 58px;
+        padding-right: 58px;
         padding-top: 10px;
         padding-bottom: 10px;
         border: none;

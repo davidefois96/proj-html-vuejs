@@ -1,4 +1,5 @@
 <script>
+import { database } from '../../assets/data/database';
   export default {
     
     props:{
@@ -8,7 +9,12 @@
 
 
 
-    }
+    },
+    data() {
+      return {
+        database
+      }
+    },
   }
 </script>
 
@@ -25,22 +31,10 @@
     
    <div>
 
-    <a class=" btn1 text-white " href="#" role="button"><i class="fa-brands fa-facebook-f"></i></a>
-    <a class=" btn2 text-white  mx-1 " href="#" role="button"><i class="fa-brands fa-twitter"></i></a>
-    <a class=" btn3 text-white " href="#" role="button"><i class="fa-brands fa-instagram"></i></a>
-
+    <a v-for="(icon,index) in database.socials" class=" btn2 text-white me-2" :style="`background-color: ${icon.color} ;`" href="#" role="button" :key="index"><i :class="`${icon.icon}`"></i></a>
 
 
    </div>
-
-
-
-
-    
-      
-    
-
-    
 
 
    </div>

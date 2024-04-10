@@ -169,6 +169,99 @@ const database={
         "Ultrasound Echocardiogram"
 
       ],
+      socials : [
+        {
+          color:"#3c5998",
+          icon:"fa-brands fa-facebook-f"
+        },
+        {
+          color:"#54acee",
+          icon:"fa-brands fa-twitter"
+        },
+        {
+          color:"#3f729b",
+          icon:"fa-brands fa-instagram"
+        },
+        
+
+
+      ],
+      serviceslist : [
+        {
+          color: "white",
+          bg: "#39afbb",
+          text:"Cardiology",
+          icon:"fa-solid fa-chevron-right",
+          iconsize:"0.45rem"
+
+
+        },
+        {
+          color: "white",
+          bg: "#39afbb",
+          text:"Pediactrics",
+          icon:"fa-solid fa-chevron-right",
+          iconsize:"0.45rem"
+
+
+        },
+        {
+          color: "white",
+          bg: "#39afbb",
+          text:"Diabetes Care",
+          icon:"fa-solid fa-chevron-right",
+          iconsize:"0.45rem"
+
+
+        },
+        {
+          color: "white",
+          bg: "#39afbb",
+          text:"Ultrasound Echocardiogram",
+          icon:"fa-solid fa-chevron-right",
+          iconsize:"0.45rem"
+
+
+        },
+        {
+          color: "white",
+          bg: "#39afbb",
+          text:"Cardiology",
+          icon:"fa-solid fa-chevron-right",
+          iconsize:"0.45rem"
+
+
+
+        }
+
+
+
+      ],
+      informationlist : [
+        {
+          color: "#39afbb",
+          bg: "white",
+          text:"121 King Street, London United Kingdom",
+          icon:"fa-solid fa-location-dot",
+          iconsize:".9rem"
+
+
+        },
+        {
+          color: "#39afbb",
+          bg: "white",
+          text:"1.800.458.556",
+          icon:"fa-solid fa-phone-flip",
+          iconsize:".9rem"
+
+
+
+        },
+        
+
+
+
+      ]
 
 
     

@@ -3,6 +3,7 @@ import Skill from './partials/Skill.vue';
 import Service from './partials/Service.vue';
 import Card from './partials/Card.vue';
 import Specialty from './partials/Specialty.vue';
+import List from './partials/List.vue';
 
 import { database } from '../assets/data/database';
 
@@ -12,7 +13,8 @@ import { database } from '../assets/data/database';
       Skill,
       Service,
       Card,
-      Specialty
+      Specialty,
+      List
 
     },
     data() {
@@ -123,7 +125,7 @@ import { database } from '../assets/data/database';
 
     </section>
 
-    <section class="fifthSection d-flex ">
+    <section class="fifthSection d-flex">
 
       <Specialty v-for="(specialty,index) in database.specialties" :key="index"
       :name="specialty.name"
@@ -178,13 +180,6 @@ import { database } from '../assets/data/database';
         </div>
 
         
-
-        
-        
-        
-
-
-
       </div>
 
 
@@ -201,10 +196,81 @@ import { database } from '../assets/data/database';
       </div>
 
 
+    </section>
+    <section class="customContainerBig eighthSection row row-cols-3 ">
 
-      
+      <div class="col col1">
+
+        <img src="/img/medical_logo_1x_dark.png" alt="logo">
+
+        <p class=" my-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolemue <br>launti totam aperiam, eaque ipsa quae abillo. invente veriatis et quasi architecto beatae <br> luptatem accusantium, remaperiamsiat. Voluptatem accusest etsium doloremque <br>
+        Laudaien. Lorem ipsum sits dolores ets unser.</p>
+
+        <div class="line pb-2 "></div>
+
+        <h6 class="mb-5">LEARN MORE ABOUT US</h6>
+
+        <div>
+          <a v-for="(icon,index) in database.socials" class=" btn2 text-white me-2" :style="`background-color: ${icon.color} ;`" href="#" role="button" :key="index"><i :class="`${icon.icon}`"></i></a>
+          
+          <a class="text-white bg-danger " href="#" role="button"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
 
 
+      </div>
+      <div class="col">
+
+        <h6> CONTACT INFORMATION </h6>
+
+        <div class="lineSmall my-4 "></div>
+
+        <ul>
+          <List v-for="(item,index) in database.informationlist" :key="index"
+        :bg="item.bg"
+        :color="item.color"
+        :text="item.text"
+        :icon="item.icon"
+        :iconsize="item.iconsize"
+
+        />
+          
+
+        </ul>
+
+
+
+        
+      </div>
+      <div class="col">
+
+        
+
+        <h6> MEDICAL DEPARTMENTS </h6>
+
+        <div class="lineSmall my-4 "></div>
+
+        <ul class="mb-5">
+          <List v-for="(item,index) in database.serviceslist" :key="index"
+        :bg="item.bg"
+        :color="item.color"
+        :text="item.text"
+        :icon="item.icon"
+        :iconsize="item.iconsize"
+
+        />
+          
+
+        </ul>
+
+        <button>VIEW OUR DEPARTMENTS</button>
+
+        
+
+
+        
+        
+      </div>
 
 
     </section>
@@ -234,7 +300,7 @@ main{
   .secondSection{
 
     padding-top: 90px;
-    padding-bottom: 90px;
+    padding-bottom: 120px;
     background-color: #f7f7f7;
     text-align: center;
 
@@ -247,6 +313,7 @@ main{
     padding-bottom: 90px;
     
     text-align: center;
+    
     
 
 
@@ -277,6 +344,11 @@ main{
     }
     
 
+  }
+  .fifthSection{
+    height: 290px;
+    text-align: center;
+  
   }
   
   .sixthSection{
@@ -354,13 +426,64 @@ main{
   .seventhSection{
     background-image: url(/img/rgb-gradient-bar-for-logo-carrasel.jpg);
     background-size: cover;
-    height: 270px;
+    height: 290px;
     img{
       width: 20%;
       
     }
 
+  }
+  .eighthSection{
 
+    height: 500px;
+    font-size: .8rem;
+    padding-top: 80px;
+
+    .col1{
+      p{line-height: 30px;}
+
+
+    }
+
+    .line{
+      border-top: solid black 1px;
+    }
+
+    .lineSmall{
+      border: solid 1px $pelorous;
+      width: 40px;
+
+    }
+
+
+
+    h6{font-size: .9rem;}
+
+    a{
+      display: inline-block;
+      height: 25px;
+      width:25px;
+      font-size: smaller;
+      text-align: center;
+      line-height: 25px;
+      border-radius: 3px;
+    }
+
+    button{
+        
+        font-size: .98rem;
+        background-color: white;
+        border-radius: 0%;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+        border: solid black 1px;
+        
+
+
+      }
+        
 
 
   }

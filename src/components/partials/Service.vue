@@ -15,11 +15,11 @@
   <div>
 
     
-    <img :src="`/img/${service.img}`" alt="">
+    <img class="mb-2" :src="`/img/${service.img}`" alt="">
 
     
     
-    <h3 class="mt-2">{{service.name}} </h3>
+    <h3 >{{service.name}} </h3>
 
     <div class="line my-4  "></div>
 

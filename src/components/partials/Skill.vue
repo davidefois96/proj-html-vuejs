@@ -45,11 +45,11 @@ import { database } from '../../assets/data/database';
   margin-bottom: 10px;
 
   p{
-   font-size: 0.76rem;
+   font-size: 0.85rem;
   
   }
   h6{
-    font-size: 0.9rem;
+    font-size: 0.95rem;
     margin-top: 15px;
     margin-bottom: 15px;
 

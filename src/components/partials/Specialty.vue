@@ -12,7 +12,7 @@
 </script>
 
 <template>
-  <div class="text-center text-white py-5 px-2 " :style="`background-color: ${color}`">
+  <div class="text-white px-2 py-5" :style="`background-color: ${color}`">
     <h6>{{ name }}</h6>
     <img class="my-3" src="/img/wave-divider.png" alt="wave-divider">
     <p class=" lh-lg mb-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudatium, totam rem aperiam, eaque</p>
@@ -27,6 +27,8 @@
 <style lang="scss" scoped>
 
  @use '../../assets/scss/partials/variables.scss' as *;
+
+ 
 
  button{
 
@@ -44,6 +46,7 @@
   }
   p{
     font-size: 0.8rem;
+    text-align: center;
    
   }
 
