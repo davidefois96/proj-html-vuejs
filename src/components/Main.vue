@@ -225,7 +225,7 @@ import { database } from '../assets/data/database';
 
         <div class="lineSmall my-4 "></div>
 
-        <ul>
+        <ul class=" p-0 ">
           <List v-for="(item,index) in database.informationlist" :key="index"
         :bg="item.bg"
         :color="item.color"
@@ -250,8 +250,9 @@ import { database } from '../assets/data/database';
 
         <div class="lineSmall my-4 "></div>
 
-        <ul class="mb-5">
-          <List v-for="(item,index) in database.serviceslist" :key="index"
+        <ul class="mb-4 p-0">
+          
+        <List v-for="(item,index) in database.serviceslist" :key="index"
         :bg="item.bg"
         :color="item.color"
         :text="item.text"

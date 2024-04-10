@@ -1,6 +1,26 @@
 
-@use './partials/general';
+@use './partials/variables' as *;
 
-@import '/node_modules/bootstrap/dist/css/bootstrap.css'
+@import '/node_modules/bootstrap/dist/css/bootstrap.css';
 
 
+.customContainer{
+
+  width: 1020px;
+  margin:auto;
+  
+
+}
+
+.customContainerBig{
+  width: 1620px;
+  margin: auto;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+
+}

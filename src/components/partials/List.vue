@@ -16,7 +16,7 @@
 </script>
 
 <template>
-  <li class="d-flex mb-3 ">
+  <li class="d-flex mb-2 ">
 
     <div class="circle me-2 " :style="`background-color: ${bg}; color: ${color};`"><i :class="`${icon}`" :style="`font-size: ${iconsize};`"></i></div>
     <p>{{text}}</p>
@@ -40,7 +40,6 @@
   text-align: center;
   line-height: 18px;
 
-  
 
 }
 

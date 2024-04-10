@@ -8,7 +8,7 @@
   <footer >
     <div class="customContainerBig d-flex align-items-center  position-relative ">
 
-      <p> &#169 Copyright 2012-2020 | Avada Theme by Theme Fusion | All Rights Reserved | Powered by Wordpress</p>
+      <p class="m-0"> &#169 Copyright 2012-2020 | Avada Theme by Theme Fusion | All Rights Reserved | Powered by Wordpress</p>
       <div class="box"><i class="fa-solid fa-chevron-up"></i></div>
 
 
