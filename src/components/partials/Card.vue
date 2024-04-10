@@ -63,6 +63,7 @@ p{
 
   font-size: 0.76rem;
   color:#747474;
+  line-height: 30px;
 }
 
 

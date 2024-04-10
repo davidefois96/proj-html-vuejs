@@ -26,7 +26,7 @@ import { database } from '../../assets/data/database';
     <img :src="`/img/${img}`" alt="logo"> 
     <h6>{{name}}</h6>
     
-    <p>{{ text }}</p>
+    <p class="lh-lg">{{ text }}</p>
 
 
   </div>
@@ -45,7 +45,7 @@ import { database } from '../../assets/data/database';
   margin-bottom: 10px;
 
   p{
-   font-size: 0.85rem;
+   font-size: 0.84rem;
    color: #747474;
   
   }
