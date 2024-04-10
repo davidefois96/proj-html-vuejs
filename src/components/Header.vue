@@ -82,7 +82,7 @@ header{
 
     
     li{
-      margin-left: 50px;
+      margin-left: 40px;
 
       button{
         font-size: 0.8rem;
